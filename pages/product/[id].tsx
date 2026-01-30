@@ -1,6 +1,6 @@
 import fs from "fs/promises"
 import path from "path"
-import { Product } from "."
+import { Product } from ".."
 export default function DetailPage({ products }: { products: Product[] }) {
     if (!products || products.length === 0) {
         return <p>Loading.......</p>

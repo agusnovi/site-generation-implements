@@ -23,7 +23,7 @@ export default function HomePage({ products }: { products: Product[] }) {
             <h3>{product.name}</h3>
             <h4>{product.description}</h4>
             <p>{product.price}</p>
-            <Link href={`/${product.id}`}>See Detail</Link>
+            <Link href={`/product/${product.id}`}>See Detail</Link>
           </div>
         ))}
       </>
